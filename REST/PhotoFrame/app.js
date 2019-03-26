@@ -15,6 +15,7 @@
 'use strict';
 
 // [START app]
+require('dotenv').config()
 
 const async = require('async');
 const bodyParser = require('body-parser');
